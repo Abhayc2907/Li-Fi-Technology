@@ -12,27 +12,8 @@ The transmitter converts the input message into digital data and controls an LED
 
 At the receiver, an **LDR (Light Dependent Resistor)** detects the changes in incident light and produces corresponding electrical signals. The Arduino processes these signals, reconstructs the transmitted data, and displays the decoded message on a **16×2 LCD**.
 
-```text
-Input Message
-      ↓
-Arduino Transmitter
-      ↓
-Digital Data Encoding
-      ↓
-LED → Light Pulses
-      ↓
-      ✨
-      ↓
-LDR Receiver
-      ↓
-Signal Detection & Decoding
-      ↓
-Arduino
-      ↓
-16×2 LCD
-      ↓
-Received Message
-```
+![Uploading image.png…]()
+
 
 ## 🔧 Hardware Components
 
